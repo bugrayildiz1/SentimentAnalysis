@@ -11,7 +11,7 @@ response = requests.get(
       TRANSCRIPT_ENDPOINT,
       headers={'authorization': api_key},
       json={
-    	'audio_url': 'https://www.americanrhetoric.com/mp3clipsXE/politicalspeeches/joebideninauguraladdressARXE.mp3',
+    	'audio_url': '-your-audio-url-',
         'sentiment_analysis': True
       },
 )
